@@ -10,10 +10,8 @@ console.log(props)
         props.players.map(puppy =>{
             return <div className="eachCard" key={puppy.id}>
                 <div className="cards">
-                <p className='name'>{puppy.name}</p>
-                <p className='idNumber'>{puppy.id}</p>
-
-                <p><img className="image" src={puppy.imageUrl} /></p>
+                <span className='name'>{puppy.name} {puppy.id}</span>
+                <span><img className="image" src={puppy.imageUrl} /></span>
                 <Link to=':id' className='btn'>About {puppy.name}</Link>
                 </div>
             </div>

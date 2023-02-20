@@ -28,8 +28,6 @@ useEffect(() => {
     return(
         
         <div id="main">
-            <Navbar />
-
         <BrowserRouter>
         <Routes>
             <Route path='/' element={<Dogs players={players} />} />

@@ -8,6 +8,7 @@ const Navbar = () => {
         type="text"
         placeholder="Search"
       />
+      <button className="searchBtn">Search</button>
     </div>
   );
 };
